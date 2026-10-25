@@ -1,12 +1,34 @@
+:root {
+    --color-texto-negro: #1F2937;
+    --color-texto-blanco: #F3F4F6;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    font-family: system-ui, sans-serif;
-    padding: 16px;
-    padding: 50px;
+    font-family: "Inter", serif;
+    padding: 28px;
 }
 
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    padding: 15px;
+    font-size: 19px;
+    text-align: right;
+    display:block;
+    font-family: "Inter", sans-serif;
+}
 
+nav a:hover {
+    color: blue
+}
+
+span {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
 
 
 table td {
@@ -21,16 +43,117 @@ th {
     border: 3px solid #1817172e;
 }
 
+tr {
+    padding: 8px;
+}
+
 .tecnica {
     background: #d9ceb7;
 }
 
 caption {
-    margin: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-.lunes {
-    background: #324A5F;
-    color: #fff
+.javascript {
+    background: #E3B23C;
+    color: #1F2937
 }
 
+.html-css {
+    background: #D1495B;
+    color: var(--color-texto-blanco)
+
+}
+
+.horario {
+    margin: 45px;
+    margin-top: 15px;
+
+}
+
+.ingles {
+    color: var(--color-texto-blanco);
+    background: #2D5DA8;
+}
+
+.linux {
+    background: #2F3E46;
+    color: var(--color-texto-blanco)
+}
+
+.ciencias-naturales {
+    background: #3BA99C;
+    color: var(--color-texto-negro)
+}
+
+.bases-datos {
+    color: var(--color-texto-blanco);
+    background: #1F6F8B;
+}
+
+.matematicas {
+    color: var(--color-texto-negro);
+    background: #4C8C2B;
+}
+
+.etica {
+    color: var(--color-texto-negro);
+    background: #6D8F9C;
+}
+
+.proyecto-formativo {
+    color: var(--color-texto-blanco);
+    background: #7A1F3D;
+}
+
+.comunicacion {
+    color: var(--color-texto-negro);
+    background: #B8A9C9;
+}
+
+.git {
+    background: #4B3F8F;
+    color: var(--color-texto-blanco);
+}
+
+.emprendimiento {
+    color: var(--color-texto-negro);
+    background: #A3B83C;
+}
+
+.cultura-fisica {
+    color: var(--color-texto-negro);
+    background: #E8A0BF;
+}
+
+.tutoria-proyecto {
+    color: var(--color-texto-blanco);
+    background: #8A5A44;
+}
+
+.seguridad-salud {
+    background: #E67E22;
+    color: var(--color-texto-negro);
+}
+
+.autoaprendizaje {
+    background: #6B7280;
+    color: var(--color-texto-blanco)
+}
+
+.descanso-almuerzo {
+    color: var(--color-texto-negro);
+    background: #E5E7EB;
+}
+
+.analisis-requisitos {
+    color: var(--color-texto-blanco);
+    background: #0F766E;
+}
+
+tfoot td {
+    border: none;
+    font-weight: bold;
+}
