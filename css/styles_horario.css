@@ -2,5 +2,35 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-family: system-ui, sans-serif;
+    padding: 16px;
+    padding: 50px;
+}
+
+
+
+
+table td {
+    border: solid 3px #1817172e
+}
+
+table thead {
+    background: #d9ceb7;
+}
+
+th {
+    border: 3px solid #1817172e;
+}
+
+.tecnica {
+    background: #d9ceb7;
+}
+
+caption {
+    margin: 15px;
+}
+
+.lunes {
+    background: #324A5F;
+    color: #fff
 }
 
