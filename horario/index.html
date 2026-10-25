@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Coral+Pixels&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=VT323&display=swap" rel="stylesheet">
     <title>Horario</title>
-    <link rel="stylesheet" href="css/styles_horario.css">
+    <link rel="stylesheet" href="../css/styles_horario.css">
+    <nav><a href="../index.html">Regresar a la página anterior</a></nav>
 </head>
 <body>
 
@@ -25,10 +29,10 @@
       <tbody>
         <tr>
           <th scope="row">7:00 – 8:00</th>
-          <td class="lunes" rowspan="3">Programación en JavaScript <span class="ambiente">Amb. 204</span></td>
-          <td class="transversal" rowspan="2">Inglés <span class="ambiente">Amb. 101</span></td>
-          <td class="tecnica" rowspan="2">Bases de datos <span class="ambiente">Amb. 205</span></td>
-          <td class="tecnica" rowspan="3">HTML y CSS <span class="ambiente">Amb. 204</span></td>
+          <td class="javascript" rowspan="3">Programación en JavaScript <span class="ambiente">Amb. 204</span></td>
+          <td class="ingles" rowspan="2">Inglés <span class="ambiente">Amb. 101</span></td>
+          <td class="bases-datos" rowspan="2">Bases de datos <span class="ambiente">Amb. 205</span></td>
+          <td class="html-css" rowspan="3">HTML y CSS <span class="ambiente">Amb. 204</span></td>
           <td class="proyecto" rowspan="2">Proyecto formativo <span class="ambiente">Amb. 210</span></td>
         </tr>
         <tr>
@@ -36,47 +40,47 @@
         </tr>
         <tr>
           <th scope="row">9:00 – 10:00</th>
-          <td class="transversal">Matemáticas <span class="ambiente">Amb. 102</span></td>
-          <td class="transversal">Ética <span class="ambiente">Amb. 103</span></td>
-          <td class="transversal">Comunicación <span class="ambiente">Amb. 101</span></td>
+          <td class="matematicas">Matemáticas <span class="ambiente">Amb. 102</span></td>
+          <td class="etica">Ética <span class="ambiente">Amb. 103</span></td>
+          <td class="comunicacion">Comunicación <span class="ambiente">Amb. 101</span></td>
         </tr>
         <tr class="pausa">
           <th scope="row">10:00 – 10:30</th>
-          <td colspan="5">Descanso</td>
+          <td class="descanso-almuerzo" colspan="5">Descanso</td>
         </tr>
         <tr>
           <th scope="row">10:30 – 11:30</th>
-          <td class="tecnica" rowspan="2">Git y GitHub <span class="ambiente">Amb. 204</span></td>
-          <td class="tecnica" rowspan="2">Programación en JavaScript <span class="ambiente">Amb. 204</span></td>
-          <td class="transversal">Emprendimiento <span class="ambiente">Amb. 103</span></td>
-          <td class="tecnica" rowspan="2">Bases de datos <span class="ambiente">Amb. 205</span></td>
-          <td class="proyecto" rowspan="2">Tutoría de proyecto <span class="ambiente">Amb. 210</span></td>
+          <td class="git" rowspan="2">Git y GitHub <span class="ambiente">Amb. 204</span></td>
+          <td class="javascript" rowspan="2">Programación en JavaScript <span class="ambiente">Amb. 204</span></td>
+          <td class="emprendimiento">Emprendimiento <span class="ambiente">Amb. 103</span></td>
+          <td class="bases-datos" rowspan="2">Bases de datos <span class="ambiente">Amb. 205</span></td>
+          <td class="tutoria-proyecto" rowspan="2">Tutoría de proyecto <span class="ambiente">Amb. 210</span></td>
         </tr>
         <tr>
           <th scope="row">11:30 – 12:30</th>
-          <td class="transversal">Cultura física <span class="ambiente">Coliseo</span></td>
+          <td class="cultura-fisica">Cultura física <span class="ambiente">Coliseo</span></td>
         </tr>
         <tr class="pausa">
           <th scope="row">12:30 – 1:30</th>
-          <td colspan="5">Almuerzo</td>
+          <td class="descanso-almuerzo" colspan="5">Almuerzo</td>
         </tr>
         <tr>
           <th scope="row">1:30 – 2:30</th>
-          <td class="tecnica" rowspan="2">Análisis de requisitos <span class="ambiente">Amb. 205</span></td>
-          <td class="proyecto" colspan="2" rowspan="2">Proyecto formativo <span class="ambiente">Amb. 210</span></td>
-          <td class="transversal">Inglés <span class="ambiente">Amb. 101</span></td>
-          <td class="libre" rowspan="3">Autoaprendizaje <span class="ambiente">Biblioteca</span></td>
+          <td class="analisis-requisitos" rowspan="2">Análisis de requisitos <span class="ambiente">Amb. 205</span></td>
+          <td class="proyecto-formativo" colspan="2" rowspan="2">Proyecto formativo <span class="ambiente">Amb. 210</span></td>
+          <td class="ingles">Inglés <span class="ambiente">Amb. 101</span></td>
+          <td class="autoaprendizaje" rowspan="3">Autoaprendizaje <span class="ambiente">Biblioteca</span></td>
         </tr>
         <tr>
           <th scope="row">2:30 – 3:30</th>
-          <td class="transversal">Ciencias naturales <span class="ambiente">Amb. 102</span></td>
+          <td class="ciencias-naturales">Ciencias naturales <span class="ambiente">Amb. 102</span></td>
         </tr>
         <tr>
           <th scope="row">3:30 – 4:30</th>
-          <td class="tecnica">Linux y terminal <span class="ambiente">Amb. 204</span></td>
-          <td class="transversal">Inglés <span class="ambiente">Amb. 101</span></td>
-          <td class="tecnica">HTML y CSS <span class="ambiente">Amb. 204</span></td>
-          <td class="transversal">Seguridad y salud <span class="ambiente">Amb. 103</span></td>
+          <td class="linux">Linux y terminal <span class="ambiente">Amb. 204</span></td>
+          <td class="ingles">Inglés <span class="ambiente">Amb. 101</span></td>
+          <td class="html-css">HTML y CSS <span class="ambiente">Amb. 204</span></td>
+          <td class="seguridad-salud">Seguridad y salud <span class="ambiente">Amb. 103</span></td>
         </tr>
       </tbody>
       <tfoot>
